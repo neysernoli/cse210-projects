@@ -4,16 +4,16 @@ using System.Collections.Generic;
 
 public class Video
 {
-    public string Titulo {get; set;}
-    public string Autor {get; set;}
+    public string Title {get; set;}
+    public string Author {get; set;}
     public double Length {get; set;}
 
     public List<Comment> _comments = new List<Comment>();
 
     public Video(string titulo, string autor, double duracion)
     {
-        Titulo = titulo;
-        Autor = autor;
+        Title = titulo;
+        Author = autor;
         Length = duracion;
     }
     public void AddComment(Comment comment)
@@ -28,8 +28,8 @@ public class Video
     
     public void display()
     {
-        Console.WriteLine($"Title: {Titulo}");
-        Console.WriteLine($"Autor: {Autor}");
+        Console.WriteLine($"Title: {Title}");
+        Console.WriteLine($"Autor: {Author}");
         Console.WriteLine($"Duracion: {Length} segundos.");
         Console.WriteLine($" {GetNumberOfComments()} Comentarios: ");
 

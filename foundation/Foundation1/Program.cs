@@ -5,8 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Video v1 = new Video("Apremde C#", "Bryan Brains", 500);
-        Video v2 = new Video("Curso de JavaScript", "Jhon Reed", 750 );
+        Video v1 = new Video("Learning C#", "Bryan Brains", 500);
+        Video v2 = new Video("Curse of JavaScript", "Jhon Reed", 750 );
         Video v3 = new Video("Come and learn program", "Alejandra Smith", 800);
 
         v1.AddComment(new Comment("Marcus","Thank you to share your knowledge"));
@@ -19,7 +19,7 @@ class Program
 
         v3.AddComment(new Comment("Daniel", "Very clear explanations"));
         v3.AddComment(new Comment("Enzo", "Good way to start!"));
-        v3.AddComment(new Comment("Jose", "Amazing!"));
+        v3.AddComment(new Comment("Josehp", "Amazing!"));
 
 
         List<Video> videos = new List<Video>{v1, v2, v3};
