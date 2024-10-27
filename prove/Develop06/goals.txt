@@ -1,0 +1,2 @@
+0
+[] [ ] hola: saludar siempre puntos: 100
